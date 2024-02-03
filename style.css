@@ -432,6 +432,23 @@ p {
 #projects .project-info p {
     color: white;
 }
+#projects .visit-link {
+    margin-top: 30px;
+}
+
+#projects .visit-link a{
+    font-size: 20px;
+    color: white;
+    border: 3px solid crimson;
+    padding: 10px;
+    border-radius: 20px;
+    transition: .2s ease-in all;
+}
+
+#projects .visit-link a:hover{
+    border-radius: 5px solid black;
+    background-color: crimson;
+}
 
 #projects .project-img {
     flex-basis: 50%;
@@ -443,7 +460,6 @@ p {
 #projects .project-img::after {
     content: "";
     position: absolute;
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
     left: 0;
     top: 0;
     flex-basis: 50%;
